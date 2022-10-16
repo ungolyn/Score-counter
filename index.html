@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" 
+        rel="stylesheet">
+                
+                
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="base">
+                <h3>HOME</h3>
+                <div id="container"> 
+                    <h2 id="score"></h2> 
+                </div>
+                    <button class="button" onclick="one()">+1</button>
+                    <button class="button" onclick="two()">+2</button>
+                    <button class="button" onclick="three()">+3</button>
+                    
+
+            </div>
+            
+
+            <div id="visitors">
+                <h3>GUEST</h3>
+                <div id="container"> 
+                    <h2 id="goal"></h2>
+                </div>
+                    <button class="button" onclick="oner()">+1</button>
+                    <button class="button" onclick="twor()">+2</button>
+                    <button class="button" onclick="threer()">+3</button>
+                </div> 
+            
+                <button id="reset" onclick="window.location.reload()">Clear Scores</button>
+               
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background:linear-gradient( peru, #876445, #E9DAC1);
+}
+
+.container {
+    margin: 20px auto;
+    width: 575px;
+    height: 385px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #1B244A;
+}
+
+#base{
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    width: 149px;
+    height: 36px;
+   
+}
+
+#visitors{
+    
+    top: 68px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    width: 149px;
+   
+
+}
+
+
+#container{
+    width: 150px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+#score, #goal {
+    font-family: 'Cursed Timer ULiL', sans-serif;                                                                           
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    color: #F94F6D;
+    padding-top: 20px;
+    margin-top: 0px;
+
+}
+
+.button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 40px;
+    height: 40px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color:#9AABD8 ;
+}
+#reset{ 
+    margin: auto 1px;
+    font-family: verdana;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color:#9AABD8 ;
+    height: 40px;
+}
+
